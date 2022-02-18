@@ -1,0 +1,32 @@
+div p{
+    background-color: rgb(224, 229, 236);
+}
+.row{
+    text-align: center;
+}
+h2{
+    background-color: aliceblue;
+    font-size: bold;
+    text-transform: uppercase;
+}
+img{
+    width: 100%;
+}
+main div img:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px 0px rgba(0,0, 0,5);
+    transition: 2s;
+} 
+.logo{
+    width: 100px;
+}
+#p1{
+    height: 100%;
+}
+.t1 div{
+    background-image: url(../imagenes/Solicitados.jpg);
+}
+.crear-cuenta{
+    background-color: azure;
+    flex-direction: column !important;
+}
