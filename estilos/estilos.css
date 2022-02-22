@@ -1,21 +1,31 @@
+/* diseño general */
 div p{
     background-color: rgb(224, 229, 236);
+}
+div p:hover{
+    background-color: rgb(209, 210, 212);
 }
 .row{
     text-align: center;
 }
 h2{
-    background-color: aliceblue;
-    font-size: bold;
+    background-color: rgb(160, 205, 245);
+    font-size: 40px;
+    text-shadow: 2px 3px grey;
     text-transform: uppercase;
+    padding: 20px 15px;
+}
+h4{
+    background-color: rgb(224, 229, 236);
+    box-shadow: 2px 2px rgb(204, 203, 203);
 }
 img{
     width: 100%;
 }
 main div img:hover{
-    transform: scale(1.1);
+    transform: scale(1.03);
     box-shadow: 0px 0px 10px 0px rgba(0,0, 0,5);
-    transition: 2s;
+    transition: 1s;
 } 
 .logo{
     width: 100px;
@@ -26,7 +36,19 @@ main div img:hover{
 .t1 div{
     background-image: url(../imagenes/Solicitados.jpg);
 }
+/* diseño de crear cuenta */
 .crear-cuenta{
     background-color: azure;
     flex-direction: column !important;
+}
+/* diseño login (aun no logro centrar el login) */
+
+@media screen and (max-width:720px){
+    h2{
+        background-color: rgb(160, 205, 245);
+        font-size: 30px;
+        text-shadow: 2px 3px grey;
+        text-transform: uppercase;
+        padding: 20px 15px;
+    }
 }
