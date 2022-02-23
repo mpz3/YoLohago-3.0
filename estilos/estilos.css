@@ -1,4 +1,7 @@
 /* diseño general */
+.navbar-light .navbar-nav .nav-link {
+    color: #f5f7fa;
+}
 div p{
     background-color: rgb(224, 229, 236);
 }
@@ -36,11 +39,84 @@ main div img:hover{
 .t1 div{
     background-image: url(../imagenes/Solicitados.jpg);
 }
+/* diseño del index */
+.ofertas{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.7)
+    )
+    ,url(../imagenes/ofrecidos.jpg) !important;
+    background: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: "Roboto",sans-serif;
+    box-sizing: border-box;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+.solicitados{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(../imagenes/Solicitados.jpg) !important;
+    background: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: "Roboto",sans-serif;
+    box-sizing: border-box;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+.p-i{
+    color: rgb(184, 180, 180);
+    font-weight: bold;
+}
+
+h3{
+    font-size: 40px;
+}
+
+.btn-primary{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 0px 40px;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0,0.5);
+    box-shadow: 2px 2px 10px rgb(0, 0, 0,0.5);
+}
+.btn-primary:hover{
+    background-color: blue;
+}
+/* diseño del footer */
+footer{
+    color: white !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
+footer p{
+    text-decoration: none;
+}
 /* diseño de crear cuenta */
 .crear-cuenta{
     background-color: azure;
     flex-direction: column !important;
 }
+
 /* diseño login (aun no logro centrar el login) */
 
 @media screen and (max-width:720px){
